@@ -608,7 +608,7 @@ body {
 	height: 54px;
 	background: #323232;
 	border-radius: 100px;
-	margin-right: 20px;
+	margin-right: 2%;
 	border: none;
 	padding-left: 3.4%;
 	box-sizing: border-box;
@@ -625,7 +625,7 @@ body {
 	border-radius: 100px;
 	flex-direction: row;
 	align-items: center;
-	width: 33%;
+	width: 34%;
 	height: 54px;
 	border: none;
 	font-family: "Muller";
@@ -702,4 +702,84 @@ input::placeholder {
 }
 .button-down {
 	margin: 0 auto;
+	text-decoration: none;
+	margin-bottom: 60px;
+}
+.footer_wrapper {
+	width: 100%;
+	background-color: #323232;
+}
+.footer_content {
+	max-width: 1220px;
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.footer_mathLabs {
+	width: 36%;
+	margin-top: 69px;
+	margin-bottom: 96px;
+	margin-right: 40%;
+}
+.mathLabs_footer {
+	font-family: "MullerLight";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 22px;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	margin-bottom: 21px;
+}
+.mathLabs_p {
+	font-family: "MullerLight";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 20px;
+
+	color: rgba(255, 255, 255, 0.7);
+}
+.footer_social {
+	width: 22%;
+	margin-top: 52px;
+	margin-bottom: 70px;
+	margin-left: 1%;
+}
+.footer_social_h2 {
+	font-family: "MullerLight";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 22px;
+	color: #ffffff;
+	margin-bottom: 32px;
+}
+.social-icons {
+	margin-right: 12px;
+}
+.social-icons:last-child {
+	margin-right: 0px;
+}
+.agreements {
+	width: 100%;
+	display: flex;
+	margin-bottom: 61px;
+}
+.agreements_item {
+	font-family: "MullerRegular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 16px;
+
+	color: #ffffff;
+}
+.agreements_item:first-child {
+	text-decoration: none;
+	margin-right: 376px;
+}
+.agreements_item:nth-child(2) {
+	margin-right: 40px;
 }
